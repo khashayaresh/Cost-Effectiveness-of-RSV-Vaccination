@@ -3,7 +3,7 @@
 
 This repository contains a complete and reproducible cost-effectiveness analysis (CEA) of **respiratory syncytial virus (RSV) vaccination** in **U.S. adults aged 75–84 years**. The study combines a **Markov health economic model** with a **machine learning–based risk calibration component** to evaluate both the **clinical impact** and **economic value** of RSV vaccination from a **U.S. healthcare payer perspective**.
 
-**Final project report:** `CEA.pdf`  
+**Final project report:** `RSV Vaccination CEA.pdf`  
 **Programming language:** R  
 **Methods:** Decision analysis + Machine Learning  
 **Model outputs:** ICER, QALYs, CEAC, PSA
