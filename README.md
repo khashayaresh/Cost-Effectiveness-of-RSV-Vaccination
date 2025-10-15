@@ -1,7 +1,7 @@
 # Cost-Effectiveness of RSV Vaccination in U.S. Adults Aged 75–84  
 ### A Decision-Analytic and Machine Learning–Enhanced Modeling Study
 
-This repository contains a complete and reproducible cost-effectiveness analysis (CEA) of **respiratory syncytial virus (RSV) vaccination** in **U.S. adults aged 75–84 years**. The study combines a **Markov health economic model** with **machine learning–based risk calibration** to evaluate both **clinical impact** and **economic value** of RSV vaccination from a **U.S. healthcare payer perspective**.
+This repository contains a complete and reproducible cost-effectiveness analysis (CEA) of **respiratory syncytial virus (RSV) vaccination** in **U.S. adults aged 75–84 years**. The study combines a **Markov health economic model** with a **machine learning–based risk calibration component** to evaluate both the **clinical impact** and **economic value** of RSV vaccination from a **U.S. healthcare payer perspective**.
 
 **Final project report:** `CEA.pdf`  
 **Programming language:** R  
@@ -32,12 +32,14 @@ This repository contains a complete and reproducible cost-effectiveness analysis
 | Perspective | U.S. healthcare payer |
 | Discounting | 3% (costs & QALYs) |
 | Vaccine type | Arexvy-like waning VE |
-| Sensitivity | Probabilistic Sensitivity Analysis (PSA, 2000 draws) |
+| Sensitivity | Probabilistic Sensitivity Analysis (PSA, 2,000 draws) |
 | ML component | Logistic regression risk calibration |
 
 ---
 
-## Repository Structure
+## 📂 Repository Structure
+
+```text
 ├── data/                         # Raw input data (if provided externally)
 ├── data_clean/                   # Curated datasets generated during pipeline
 │   ├── base_incidence_age.csv
@@ -59,7 +61,5 @@ This repository contains a complete and reproducible cost-effectiveness analysis
 │   ├── 05_ml_risk_model.R
 │   ├── 06_markov_cea.R
 │   └── 07_psa_ceac_evppi.R
-├── CEA.pdf                      # Final manuscript report
-└── README.md                    # Project documentation
-
-
+├── CEA.pdf                       # Final manuscript report
+└── README.md                     # Project documentation
