@@ -40,8 +40,9 @@ This repository contains a complete and reproducible cost-effectiveness analysis
 ## 📂 Repository Structure
 
 ```text
-├── Dataset/                         # Raw input data 
-├── Dataset_Clean/                   # Curated datasets generated during pipeline
+├── Dataset/                         
+│   └── Weekly_Rates_of_Laboratory-Confirmed_RSV_Hospitalizations_from_the_RSV-NET_Surveillance_System_20251002.csv           # Raw input data
+├── Dataset_Clean/                    # Curated datasets generated during pipeline
 │   ├── base_incidence_age.csv
 │   ├── havers_structured.csv
 │   ├── acip_structured.csv
@@ -53,11 +54,7 @@ This repository contains a complete and reproducible cost-effectiveness analysis
 │   └── rsvnet_unadjusted_by_season_age.png  
 ├── R/
 │   ├── 01_setup_packages.R
-│   ├── 02_ingest_rsvnet.R
-│   ├── 03_create_curated_inputs.R
-│   ├── 04_build_inputs.R
-│   ├── 05_ml_risk_model.R
-│   ├── 06_markov_cea.R
-│   └── 07_psa_ceac_evppi.R
+│   ├── 99_helpers.R
+│   └── Cost Effectiveness Analysis Code.R
 ├── RSV Vaccination CEA.pdf         # Final manuscript report
 └── README.md                     
