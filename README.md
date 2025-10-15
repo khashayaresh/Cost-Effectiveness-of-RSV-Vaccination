@@ -40,7 +40,7 @@ This repository contains a complete and reproducible cost-effectiveness analysis
 ## 📂 Repository Structure
 
 ```text
-├── data/                         # Raw input data (if provided externally)
+├── data/                         # Raw input data 
 ├── data_clean/                   # Curated datasets generated during pipeline
 │   ├── base_incidence_age.csv
 │   ├── havers_structured.csv
@@ -61,5 +61,5 @@ This repository contains a complete and reproducible cost-effectiveness analysis
 │   ├── 05_ml_risk_model.R
 │   ├── 06_markov_cea.R
 │   └── 07_psa_ceac_evppi.R
-├── CEA.pdf                       # Final manuscript report
-└── README.md                     # Project documentation
+├── RSV Vaccination CEA.pdf         # Final manuscript report
+└── README.md                     
