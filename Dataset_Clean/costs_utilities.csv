@@ -1,0 +1,10 @@
+item,value
+outpatient_cost,200
+hosp_cost_mean,22000
+hosp_cost_low,11876
+hosp_cost_high,47512
+disutility_outpt,0.02
+disutility_hosp_nonicu,0.1
+disutility_hosp_icu,0.2
+vaccine_price,270
+admin_cost,25

@@ -1,0 +1,8 @@
+age_band,chronic_status,incidence_range_per100k_low,incidence_range_per100k_high,hosp_cost_mean,hosp_cost_low,hosp_cost_high,ve_months,ve_values
+>=60,with_chronic,198,527,22000,NA,NA,NA,NA
+>=60,without_chronic,32,121,11876,8407,47512,NA,NA
+60-64,general_outpatient,1833,1833,NA,NA,NA,NA,NA
+>=65,general_outpatient,2478,2478,NA,NA,NA,NA,NA
+50-59,COPD_outpatient,2925,2925,NA,NA,NA,NA,NA
+50-59,with_chronic_hosp,106,106,20330,NA,NA,NA,NA
+50-59,COPD_hosp,169,169,35308,NA,NA,NA,NA

@@ -1,0 +1,5 @@
+age_band,adjusted_rate_min_per100k,adjusted_rate_max_per100k,icu_pct,in_hosp_death_pct,undertesting_multiplier
+50-64 years,NA,NA,0.191,0.043,1.5
+65-74 years,NA,NA,0.191,0.043,1.5
+75-84 years,244.7,411.4,0.191,0.058,1.5
+85+ years,NA,NA,0.191,0.058,1.5

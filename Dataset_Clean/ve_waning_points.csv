@@ -1,0 +1,9 @@
+outcome,months,ve
+hosp,6,0.82
+hosp,12,0.75
+hosp,24,0.62
+hosp,36,0.5
+outpt,6,0.5
+outpt,12,0.45
+outpt,24,0.35
+outpt,36,0.3
