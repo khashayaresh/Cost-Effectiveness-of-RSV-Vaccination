@@ -1,4 +1,4 @@
-# Cost-Effectiveness of RSV Vaccination in the U.S. Adults Aged 75–84  
+# Cost-Effectiveness of RSV Vaccination in U.S. Adults Aged 75–84  
 ### A Decision-Analytic and Machine Learning–Enhanced Modeling Study
 
 This repository contains a complete and reproducible cost-effectiveness analysis (CEA) of **respiratory syncytial virus (RSV) vaccination** in **U.S. adults aged 75–84 years**. The study combines a **Markov health economic model** with a **machine learning–based risk calibration component** to evaluate both the **clinical impact** and **economic value** of RSV vaccination from a **U.S. healthcare payer perspective**.
