@@ -40,19 +40,17 @@ This repository contains a complete and reproducible cost-effectiveness analysis
 ## 📂 Repository Structure
 
 ```text
-├── data/                         # Raw input data 
-├── data_clean/                   # Curated datasets generated during pipeline
+├── Dataset/                         # Raw input data 
+├── Dataset_Clean/                   # Curated datasets generated during pipeline
 │   ├── base_incidence_age.csv
 │   ├── havers_structured.csv
 │   ├── acip_structured.csv
 │   ├── landi_structured.csv
 │   ├── ve_waning_points.csv
 │   └── eq5d_age_util_structured.csv
-├── outputs/
-│   ├── figures/
-│   │   ├── ceac_plot.png
-│   │   └── rsvnet_unadjusted_by_season_age.png
-│   └── tables/
+├── Figures/
+│   ├── ceac_plot.png
+│   └── rsvnet_unadjusted_by_season_age.png  
 ├── R/
 │   ├── 01_setup_packages.R
 │   ├── 02_ingest_rsvnet.R
